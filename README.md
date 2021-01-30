@@ -31,9 +31,9 @@ Alternatively you can use git to clone the repository using the following comman
 
 3. Where `input_directory_location` is the path to the directory where the FreeSurfer code is located, `output_directory_location` is the path to the directory where you want the csv files to be stored. The `option` can either be _asymmetry_ if you want asymmetry measurements, _contrast_ if you want contrast measurements, or can be left empty if you want both.
    
-   Example
+Example
 
-   $ python3 main.py ~/patient02_T1W ./
+    $ python3 main.py ~/patient02_T1W ./
    
 ## Output
 The output file(s) will be csv file(s) with the same name as the input directory and will have __asymmetry.csv_ and/or __contrast.csv_ appnded to the name. They will be stored in the given `output_directory_location`.
