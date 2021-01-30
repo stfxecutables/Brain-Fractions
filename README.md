@@ -1,5 +1,7 @@
 # Brain-Fractions
 
+[![DOI](https://zenodo.org/badge/334415984.svg)](https://zenodo.org/badge/latestdoi/334415984)
+
 This is a Python program is intended for use with T1 weighted structural 3D MRI exams processed using the `recon-all` command for [FreeSurfer 6.0](https://surfer.nmr.mgh.harvard.edu/fswiki/rel6downloads). The program produces relative sub-regional measurements for a given, FreeSurfer processed, MRI exam.
 Two types of relative measurements are created by default: asymmetry and contrast. The atlases usef for acquisition of these measurements are _aseg_, _lh.aparc_, _rh.aparc_, _lh.w-g.pct_, _rh.w-g.pct_, and _wmparc_. The functions used to read files associated with these atlases are found in `src/read_files`.
 
